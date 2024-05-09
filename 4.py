@@ -1,0 +1,5 @@
+A, B, C = map(int, input("Digite três valores: ").split())
+mai = max(A, B, C)
+men = min(A, B, C)
+mei = (A + B + C) - (mai + men)
+print(f"Ordem crescente: {men}, {mei}, {mai}")
